@@ -81,77 +81,38 @@ echo "Testing North America locations";
 echo "Speedtest from Portland, Oregon, USA [ generously donated by http://bonevm.com ] on a shared 100 Mbps port";
 speedtest 100.42.19.110;
 
-## Seattle, Washington, USA (donated by http://ramnode.com)
-echo "Speedtest from Seattle, Washington, USA [ generously donated by http://ramnode.com ] on on a shared 1 Gbps port";
-speedtest 23.226.231.112;
 
-### Los Angeles, CA, USA (donated by http://maximumvps.net)
-echo "Speedtest from Los Angeles, CA, USA [ generously donated by http://maximumvps.net ] on a shared 1 Gbps port";
-speedtest 107.150.31.36;
+echo -e "\nTesting PL locations";
 
-### LA, CA, USA (donated by http://terafire.net)
-#echo "Speedtest from Los Angeles, CA, USA [ generously donated by TeraFire, LLC ] on a shared 1 Gbps port";
-#speedtest 162.216.226.220;
+echo "Rumia";
+speedtest "speedtest1.interkar.pl:8080";
 
-## Los Angeles, California, USA (donated by http://ramnode.com)
-echo "Speedtest from Los Angeles, California, USA [ generously donated by http://ramnode.com ] on on a shared 1 Gbps port";
-speedtest 168.235.78.99;
+echo "Gdynia";
+speedtest "speedtest.maxnet.org.pl:8080";
 
-##Denver, CO, USA
-echo "Speedtest from Denver, CO, USA on a shared 100 Mbps port";
-speedtest aj1dddzidccbez4i9fh3evs0tyj.getipaddr.net;
+echo "Poznan";
+speedtest "speedtest.horyzont.net:8080";
 
-##Kansas City, MO, USA
-echo "Speedtest from Kansas City, MO, USA [ generously donated by http://megavz.com ] on a shared 1 Gbps port";
-speedtest 208.67.5.186:10420;
+echo "Suwalki";
+speedtest "www.lannet.org:8080";
 
-### Dallas, TX, USA (donated by http://cloudshards.com)
-echo "Speedtest from Dallas, TX, USA [ generously donated by http://cloudshards.com ] on a shared 1 Gbps port";
-speedtest 162.220.26.107;
+echo "Warszawa";
+speedtest "st.home.pl:8080";
 
-### Chicago, IL, USA (donated by http://vortexservers.com)
-echo "Speedtest from Chicago, IL, USA [ generously donated by http://vortexservers.com ] on a shared 1 Gbps port";
-speedtest 192.210.229.206;
+echo "Krakow";
+speedtest "speedtest.classcom.pl:8080";
 
-##Beauharnois, Quebec, Canada (donated by http://http://mycustomhosting.net)
-echo "Speedtest from Beauharnois, Quebec, Canada [ generously donated by http://mycustomhosting.net ] on a shared 1000 Mbps port in / 500 Mbps port out";
-speedtest 198.50.209.250;
+echo "Wroclaw";
+speedtest "head.tvk.pl:8080";
 
-##Beauharnois, Quebec, Canada (donated by hostnun)
-echo "Speedtest from Beauharnois, Quebec, Canada [ generously donated by http://hostnun.net/ ] on a shared 500 Mbps port";
-speedtest 167.114.135.10;
+echo "Szczecin";
+speedtest "st1.ltnt.pl:8080";
 
-## New York City, New York, USA (donated by http://ramnode.com)
-echo "Speedtest from New York City, New York, USA [ generously donated by http://ramnode.com ] on on a shared 1 Gbps port";
-speedtest 168.235.81.120;
-
-## Buffalo, NY, USA
-#echo "Speedtest from Buffalo, NY, USA on a shared 1 Gpbs port (location may be slow)":
-#speedtest 23.94.28.158;
-
-## Atlanta, Georgia, USA (donated by http://ramnode.com)
-echo "Speedtest from Atlanta, Georgia, USA [ generously donated by http://ramnode.com ] on on a shared 1 Gbps port";
-speedtest 192.73.235.56;
-
-## Atlanta, GA, USA (donated by  http://hostus.us)
-#echo "Speedtest from Atlanta, GA, USA [ generously donated by http://hostus.us ] on a shared 1 Gbps port";
-#speedtest 162.245.216.241;
-
-## Lenoir, NC, USA (donated by http://megavz.com
-echo "Speedtest from Lenoir, NC, USA [ generously donated by http://megavz.com ] on a shared 1 Gbps port";
-speedtest 192.111.152.114:2020;
-
-## Asheville, NC, USA
-echo "Speedtest from  Asheville, NC, USA on a shared 1 Gbps port";
-speedtest 162.219.26.75:12320;
-
-##Jacksonville, FL, USA (donated by http://maximumvps.net)
-echo "Speedtest from Jacksonville, FL, USA [ generously donated by http://maximumvps.net ] on a shared 1 Gbps port";
-speedtest 107.155.187.129;
+echo "Lublin";
+speedtest "speed.enterpol.pl:8080";
 
 
 echo -e "\nTesting EU locations";
-
 ### Paris, France
 echo "Speedtest from Paris, France on a shared 1 Gbps port";
 speedtest "4iil8b4g67f03cdecaw9nusv.getipaddr.net";
